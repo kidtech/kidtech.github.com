@@ -1,0 +1,49 @@
+---
+layout: default
+title: Kidte.ch
+---
+
+<section class="upcoming">
+  {% for post in site.posts %}
+    {% if post.when == "next" %}
+        <article class="next-meeting">
+          <h1>Next Meeting</h1>
+          <time>{{post.date | date: "%b %d, %Y"}} @ {{post.meeting_time}}</time>
+          <p>{{post.title}}</p>
+          <a href="https://www.eventbrite.com/e/kidtech-tickets-9696649941">EventBrite Signup</a>
+        </article>
+    {% endif %}
+  {% endfor %}
+
+  <div class="meeting-wrapper">
+    {% for post in site.posts %}
+      {% if post.when == "upcoming" %}
+        <article>
+          <h1>Upcoming Meeting</h1>
+          <time>{{post.date | date: "%b %d, %Y"}}</time>
+          <p>{{post.title}}</p>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<!-- <section class="past">
+  <h1>Past Meetings</h1>
+  <div class="meeting-wrapper">
+    {% for post in site.posts %}
+      {% if post.when == "past" %}
+        <article>
+          <time>{{post.date | date: "%b %d, %Y"}}</time>
+          <p>{{post.title}}</p>
+          {% if post.video %}
+            <a href="{{post.video}}" class="media-link" data-icon="&#xe005;">Video</a>
+          {% endif %}
+          {% if post.slides %}
+            <a href="{{post.slides}}" class="media-link">Slides</a>
+          {% endif %}
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section> -->
