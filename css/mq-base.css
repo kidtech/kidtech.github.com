@@ -690,7 +690,7 @@ article p {
 }
 /* line 101, ../../scss/_listing.scss */
 .past h1:before, .past h1:after {
-  top: -.5px;
+  top: -0.5px;
 }
 /* line 106, ../../scss/_listing.scss */
 .past article {
