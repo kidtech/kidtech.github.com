@@ -7,7 +7,7 @@
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 34, ../_assets/stylesheets/_fonts.scss */
+/* line 34, ../../scss/_fonts.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -25,7 +25,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"]:before {
 */
-/* line 51, ../_assets/stylesheets/_fonts.scss */
+/* line 51, ../../scss/_fonts.scss */
 .icon-sparkbox:before, .icon-twitter:before, .icon-github:before, .icon-box-end:before, .icon-box-end-2:before, .icon-video:before, .icon-photo:before {
   font-family: 'icomoon';
   speak: none;
@@ -35,37 +35,37 @@ you can use the generic selector below, but it's slower:
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 59, ../_assets/stylesheets/_fonts.scss */
+/* line 59, ../../scss/_fonts.scss */
 .icon-github:before {
   content: "\e000";
 }
 
-/* line 62, ../_assets/stylesheets/_fonts.scss */
+/* line 62, ../../scss/_fonts.scss */
 .icon-sparkbox:before {
   content: "\e001";
 }
 
-/* line 65, ../_assets/stylesheets/_fonts.scss */
+/* line 65, ../../scss/_fonts.scss */
 .icon-twitter:before {
   content: "\e002";
 }
 
-/* line 68, ../_assets/stylesheets/_fonts.scss */
+/* line 68, ../../scss/_fonts.scss */
 .icon-box-end:before {
   content: "\e004";
 }
 
-/* line 71, ../_assets/stylesheets/_fonts.scss */
+/* line 71, ../../scss/_fonts.scss */
 .icon-box-end-2:before {
   content: "\e003";
 }
 
-/* line 74, ../_assets/stylesheets/_fonts.scss */
+/* line 74, ../../scss/_fonts.scss */
 .icon-video:before {
   content: "\e005";
 }
 
-/* line 77, ../_assets/stylesheets/_fonts.scss */
+/* line 77, ../../scss/_fonts.scss */
 .icon-photo:before {
   content: "\e006";
 }
@@ -77,7 +77,7 @@ you can use the generic selector below, but it's slower:
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
-/* line 21, ../_assets/stylesheets/_normalize.scss */
+/* line 21, ../../scss/_normalize.scss */
 article,
 aside,
 details,
@@ -95,7 +95,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 8/9.
  */
-/* line 31, ../_assets/stylesheets/_normalize.scss */
+/* line 31, ../../scss/_normalize.scss */
 audio,
 canvas,
 video {
@@ -106,7 +106,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 40, ../_assets/stylesheets/_normalize.scss */
+/* line 40, ../../scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -115,7 +115,7 @@ audio:not([controls]) {
 /*
  * Addresses styling for `hidden` attribute not present in IE 8/9.
  */
-/* line 49, ../_assets/stylesheets/_normalize.scss */
+/* line 49, ../../scss/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -128,7 +128,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 63, ../_assets/stylesheets/_normalize.scss */
+/* line 63, ../../scss/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -141,7 +141,7 @@ html {
 /*
  * Removes default margin.
  */
-/* line 73, ../_assets/stylesheets/_normalize.scss */
+/* line 73, ../../scss/_normalize.scss */
 body {
   margin: 0;
 }
@@ -152,7 +152,7 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 85, ../_assets/stylesheets/_normalize.scss */
+/* line 85, ../../scss/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -160,7 +160,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, ../_assets/stylesheets/_normalize.scss */
+/* line 94, ../../scss/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -173,7 +173,7 @@ a:hover {
  * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
  * Safari 5, and Chrome.
  */
-/* line 107, ../_assets/stylesheets/_normalize.scss */
+/* line 107, ../../scss/_normalize.scss */
 h1 {
   font-size: 2em;
 }
@@ -181,7 +181,7 @@ h1 {
 /*
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 115, ../_assets/stylesheets/_normalize.scss */
+/* line 115, ../../scss/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -189,7 +189,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 124, ../_assets/stylesheets/_normalize.scss */
+/* line 124, ../../scss/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -198,7 +198,7 @@ strong {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 132, ../_assets/stylesheets/_normalize.scss */
+/* line 132, ../../scss/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -206,7 +206,7 @@ dfn {
 /*
  * Addresses styling not present in IE 8/9.
  */
-/* line 140, ../_assets/stylesheets/_normalize.scss */
+/* line 140, ../../scss/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -215,7 +215,7 @@ mark {
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
  */
-/* line 153, ../_assets/stylesheets/_normalize.scss */
+/* line 153, ../../scss/_normalize.scss */
 code,
 kbd,
 pre,
@@ -227,7 +227,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 162, ../_assets/stylesheets/_normalize.scss */
+/* line 162, ../../scss/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -237,7 +237,7 @@ pre {
 /*
  * Sets consistent quote types.
  */
-/* line 172, ../_assets/stylesheets/_normalize.scss */
+/* line 172, ../../scss/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -245,7 +245,7 @@ q {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 180, ../_assets/stylesheets/_normalize.scss */
+/* line 180, ../../scss/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -253,7 +253,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 189, ../_assets/stylesheets/_normalize.scss */
+/* line 189, ../../scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -262,12 +262,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 196, ../_assets/stylesheets/_normalize.scss */
+/* line 196, ../../scss/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 200, ../_assets/stylesheets/_normalize.scss */
+/* line 200, ../../scss/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -278,7 +278,7 @@ sub {
 /*
  * Removes border when inside `a` element in IE 8/9.
  */
-/* line 212, ../_assets/stylesheets/_normalize.scss */
+/* line 212, ../../scss/_normalize.scss */
 img {
   border: 0;
 }
@@ -286,7 +286,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 220, ../_assets/stylesheets/_normalize.scss */
+/* line 220, ../../scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -297,7 +297,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 8/9 and Safari 5.
  */
-/* line 232, ../_assets/stylesheets/_normalize.scss */
+/* line 232, ../../scss/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -308,7 +308,7 @@ figure {
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 244, ../_assets/stylesheets/_normalize.scss */
+/* line 244, ../../scss/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -319,7 +319,7 @@ fieldset {
  * 1. Corrects color not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 255, ../_assets/stylesheets/_normalize.scss */
+/* line 255, ../../scss/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -332,7 +332,7 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-/* line 269, ../_assets/stylesheets/_normalize.scss */
+/* line 269, ../../scss/_normalize.scss */
 button,
 input,
 select,
@@ -349,7 +349,7 @@ textarea {
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 281, ../_assets/stylesheets/_normalize.scss */
+/* line 281, ../../scss/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -362,7 +362,7 @@ input {
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 296, ../_assets/stylesheets/_normalize.scss */
+/* line 296, ../../scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -376,7 +376,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 306, ../_assets/stylesheets/_normalize.scss */
+/* line 306, ../../scss/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -386,7 +386,7 @@ input[disabled] {
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  */
-/* line 316, ../_assets/stylesheets/_normalize.scss */
+/* line 316, ../../scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -400,7 +400,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 327, ../_assets/stylesheets/_normalize.scss */
+/* line 327, ../../scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -414,7 +414,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 340, ../_assets/stylesheets/_normalize.scss */
+/* line 340, ../../scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -423,7 +423,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 4+.
  */
-/* line 349, ../_assets/stylesheets/_normalize.scss */
+/* line 349, ../../scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -434,7 +434,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 359, ../_assets/stylesheets/_normalize.scss */
+/* line 359, ../../scss/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -448,20 +448,20 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 372, ../_assets/stylesheets/_normalize.scss */
+/* line 372, ../../scss/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 1, ../_assets/stylesheets/_common.scss */
+/* line 1, ../../scss/_common.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 7, ../_assets/stylesheets/_common.scss */
+/* line 7, ../../scss/_common.scss */
 .hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -473,7 +473,7 @@ table {
   width: 1px;
 }
 
-/* line 18, ../_assets/stylesheets/_common.scss */
+/* line 18, ../../scss/_common.scss */
 body {
   background: url(/img/sd/background.jpg);
   font-family: 'museo-slab', serif;
@@ -481,25 +481,24 @@ body {
   padding: 0;
 }
 
-/* line 25, ../_assets/stylesheets/_common.scss */
+/* line 25, ../../scss/_common.scss */
 .map {
   width: 100%;
   height: 250px;
 }
 
-/* line 1, ../_assets/stylesheets/_header.scss */
+/* line 1, ../../scss/_header.scss */
 header {
   background-size: 100%;
   background-position: 0 20%;
 }
-/* line 9, ../_assets/stylesheets/_header.scss */
+/* line 9, ../../scss/_header.scss */
 header h1 {
   margin: 0 auto;
   width: 334px;
-  height: 252px;
   text-indent: -9999px;
 }
-/* line 16, ../_assets/stylesheets/_header.scss */
+/* line 15, ../../scss/_header.scss */
 header p {
   font-size: 32px;
   font-size: 2rem;
@@ -511,7 +510,7 @@ header p {
   margin: 0 auto;
 }
 
-/* line 1, ../_assets/stylesheets/_listing.scss */
+/* line 1, ../../scss/_listing.scss */
 .flexbox .meeting-wrapper {
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -534,7 +533,7 @@ header p {
   width: 100%;
 }
 
-/* line 18, ../_assets/stylesheets/_listing.scss */
+/* line 18, ../../scss/_listing.scss */
 article {
   margin: 0 auto;
   margin-bottom: 48px;
@@ -543,11 +542,11 @@ article {
   padding-bottom: 1.5rem;
   text-align: center;
 }
-/* line 24, ../_assets/stylesheets/_listing.scss */
+/* line 24, ../../scss/_listing.scss */
 article:nth-child(2n+1) {
   clear: left;
 }
-/* line 28, ../_assets/stylesheets/_listing.scss */
+/* line 28, ../../scss/_listing.scss */
 article h1 {
   background: #23e03f;
   color: white;
@@ -562,7 +561,7 @@ article h1 {
   height: 38px;
   line-height: 38px;
 }
-/* line 42, ../_assets/stylesheets/_mixins.scss */
+/* line 42, ../../scss/_mixins.scss */
 article h1:after, article h1:before {
   color: #23e03f;
   font-family: 'icomoon';
@@ -575,17 +574,17 @@ article h1:after, article h1:before {
   top: -1px;
   -webkit-font-smoothing: none;
 }
-/* line 54, ../_assets/stylesheets/_mixins.scss */
+/* line 54, ../../scss/_mixins.scss */
 article h1:after {
   content: "\e004";
   right: -24.51613px;
 }
-/* line 58, ../_assets/stylesheets/_mixins.scss */
+/* line 58, ../../scss/_mixins.scss */
 article h1:before {
   content: "\e003";
   left: -23.75px;
 }
-/* line 40, ../_assets/stylesheets/_listing.scss */
+/* line 40, ../../scss/_listing.scss */
 article time {
   font-size: 25.6px;
   font-size: 1.6rem;
@@ -593,7 +592,7 @@ article time {
   display: block;
   margin-top: 10px;
 }
-/* line 47, ../_assets/stylesheets/_listing.scss */
+/* line 47, ../../scss/_listing.scss */
 article p {
   font-size: 28.8px;
   font-size: 1.8rem;
@@ -602,12 +601,12 @@ article p {
   color: #23e03f;
 }
 
-/* line 55, ../_assets/stylesheets/_listing.scss */
+/* line 55, ../../scss/_listing.scss */
 .upcoming article {
   background: white;
   width: 80%;
 }
-/* line 59, ../_assets/stylesheets/_listing.scss */
+/* line 59, ../../scss/_listing.scss */
 .upcoming article h1 {
   -webkit-transform: translate(0, -20px);
   -moz-transform: translate(0, -20px);
@@ -616,7 +615,7 @@ article p {
   transform: translate(0, -20px);
   text-transform: uppercase;
 }
-/* line 64, ../_assets/stylesheets/_listing.scss */
+/* line 64, ../../scss/_listing.scss */
 .upcoming article.next-meeting {
   background: transparent url(/img/sd/grid.png);
   -webkit-box-shadow: 0px 0px 5px #333333;
@@ -626,26 +625,26 @@ article p {
   margin: 0rem 0rem 3rem 0rem;
   width: 100%;
 }
-/* line 70, ../_assets/stylesheets/_listing.scss */
+/* line 70, ../../scss/_listing.scss */
 .upcoming article.next-meeting h1 {
   background: #231f20;
   border-color: #231f20;
   width: 240px;
 }
-/* line 75, ../_assets/stylesheets/_listing.scss */
+/* line 75, ../../scss/_listing.scss */
 .upcoming article.next-meeting h1:before, .upcoming article.next-meeting h1:after {
   color: #231f20;
   top: -1px;
 }
 
-/* line 84, ../_assets/stylesheets/_listing.scss */
+/* line 84, ../../scss/_listing.scss */
 .past {
   background: rgba(0, 0, 0, 0.12);
   float: left;
   clear: left;
   width: 100%;
 }
-/* line 90, ../_assets/stylesheets/_listing.scss */
+/* line 90, ../../scss/_listing.scss */
 .past h1 {
   background: #7d7d7d;
   color: white;
@@ -664,7 +663,7 @@ article p {
   height: 20px;
   line-height: 20px;
 }
-/* line 42, ../_assets/stylesheets/_mixins.scss */
+/* line 42, ../../scss/_mixins.scss */
 .past h1:after, .past h1:before {
   color: #7d7d7d;
   font-family: 'icomoon';
@@ -677,85 +676,85 @@ article p {
   top: -1px;
   -webkit-font-smoothing: none;
 }
-/* line 54, ../_assets/stylesheets/_mixins.scss */
+/* line 54, ../../scss/_mixins.scss */
 .past h1:after {
   content: "\e004";
   right: -12.90323px;
 }
-/* line 58, ../_assets/stylesheets/_mixins.scss */
+/* line 58, ../../scss/_mixins.scss */
 .past h1:before {
   content: "\e003";
   left: -12.5px;
 }
-/* line 101, ../_assets/stylesheets/_listing.scss */
+/* line 101, ../../scss/_listing.scss */
 .past h1:before, .past h1:after {
   top: -.5px;
 }
-/* line 106, ../_assets/stylesheets/_listing.scss */
+/* line 106, ../../scss/_listing.scss */
 .past article {
   border-bottom: 1px solid #7d7d7d;
   padding-bottom: 16px;
   padding-bottom: 1rem;
   margin-bottom: 0;
 }
-/* line 111, ../_assets/stylesheets/_listing.scss */
+/* line 111, ../../scss/_listing.scss */
 .past article.ending {
   border-bottom: none;
 }
-/* line 115, ../_assets/stylesheets/_listing.scss */
+/* line 115, ../../scss/_listing.scss */
 .past article:last-child {
   margin-bottom: 0;
 }
-/* line 119, ../_assets/stylesheets/_listing.scss */
+/* line 119, ../../scss/_listing.scss */
 .past article time, .past article p, .past article a {
   color: #231f20;
 }
-/* line 123, ../_assets/stylesheets/_listing.scss */
+/* line 123, ../../scss/_listing.scss */
 .past article .media-link {
   text-decoration: none;
 }
-/* line 126, ../_assets/stylesheets/_listing.scss */
+/* line 126, ../../scss/_listing.scss */
 .past article .media-link:before {
   color: #7d7d7d;
   position: relative;
   left: -6px;
 }
 
-/* line 137, ../_assets/stylesheets/_listing.scss */
+/* line 137, ../../scss/_listing.scss */
 .upcoming article {
   border: none;
   float: left;
   margin: 50px 5%;
   width: 40%;
 }
-/* line 143, ../_assets/stylesheets/_listing.scss */
+/* line 143, ../../scss/_listing.scss */
 .upcoming article.first {
   width: 100%;
 }
 
-/* line 149, ../_assets/stylesheets/_listing.scss */
+/* line 149, ../../scss/_listing.scss */
 .past {
   padding: 0 5% 5%;
 }
-/* line 152, ../_assets/stylesheets/_listing.scss */
+/* line 152, ../../scss/_listing.scss */
 .past article {
   float: left;
   margin: 0;
   padding: 0 5% 20px;
   width: 50%;
 }
-/* line 158, ../_assets/stylesheets/_listing.scss */
+/* line 158, ../../scss/_listing.scss */
 .past article:nth-child(2n+1) {
   border-right: 1px solid #7d7d7d;
 }
 
-/* line 1, ../_assets/stylesheets/_sponsorship.scss */
+/* line 1, ../../scss/_sponsorship.scss */
 .sponsorship {
   background: url(/img/sd/background.jpg);
   padding: .5em 5%;
 }
 
-/* line 1, ../_assets/stylesheets/_footer.scss */
+/* line 1, ../../scss/_footer.scss */
 footer {
   background: #323232;
   color: white;
@@ -763,7 +762,7 @@ footer {
   width: 100%;
   padding: 0 5%;
 }
-/* line 9, ../_assets/stylesheets/_footer.scss */
+/* line 9, ../../scss/_footer.scss */
 footer h2, footer label {
   font-weight: bold;
   display: block;
@@ -775,17 +774,17 @@ footer h2, footer label {
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
-/* line 18, ../_assets/stylesheets/_footer.scss */
+/* line 18, ../../scss/_footer.scss */
 footer p {
   font-size: 25.6px;
   font-size: 1.6rem;
   font-weight: 100;
 }
-/* line 23, ../_assets/stylesheets/_footer.scss */
+/* line 23, ../../scss/_footer.scss */
 footer [data-icon] {
   text-decoration: none;
 }
-/* line 26, ../_assets/stylesheets/_footer.scss */
+/* line 26, ../../scss/_footer.scss */
 footer [data-icon]:before {
   color: #23e03f;
   display: inline-block;
@@ -793,7 +792,7 @@ footer [data-icon]:before {
   margin: 10px 10px 0;
 }
 
-/* line 35, ../_assets/stylesheets/_footer.scss */
+/* line 35, ../../scss/_footer.scss */
 .vcard {
   font-size: 25.6px;
   font-size: 1.6rem;
@@ -801,7 +800,7 @@ footer [data-icon]:before {
   color: #23e03f;
 }
 
-/* line 41, ../_assets/stylesheets/_footer.scss */
+/* line 41, ../../scss/_footer.scss */
 .map {
   width: 100%;
   min-height: 35%;
@@ -809,18 +808,18 @@ footer [data-icon]:before {
   margin-bottom: 4rem;
 }
 
-/* line 49, ../_assets/stylesheets/_footer.scss */
+/* line 49, ../../scss/_footer.scss */
 footer .column {
   float: left;
   padding: 0 5%;
   width: 50%;
 }
 
-/* line 57, ../_assets/stylesheets/_footer.scss */
+/* line 57, ../../scss/_footer.scss */
 .email-signup {
   width: 100%;
 }
-/* line 60, ../_assets/stylesheets/_footer.scss */
+/* line 60, ../../scss/_footer.scss */
 .email-signup .email {
   width: 100%;
   font-size: 1.7rem;
@@ -829,7 +828,7 @@ footer .column {
   margin-right: .5em;
   width: 66%;
 }
-/* line 72, ../_assets/stylesheets/_footer.scss */
+/* line 72, ../../scss/_footer.scss */
 .email-signup .button {
   background-color: #aaa;
   border: 0 none;

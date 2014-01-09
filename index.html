@@ -1,49 +1,98 @@
----
-layout: default
-title: Kidte.ch
----
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Kidte.ch</title>
+  <meta name="description" content="A hacking space for kids">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="msapplication-TileColor" content="#73c5d3"/>
+  <meta name="msapplication-TileImage" content="sbx_144x144.png"/>
+  <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="/css/no-mq-base.css" rel="stylesheet">
+      <![endif]-->
+      <!--[if (gte IE 9) | (IEMobile)]><!-->
+      <link href="/css/mq-base.css" rel="stylesheet">
+      <!--<![endif]-->
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="/">
+        Kidte.ch
+      </a>
+    </h1>
+    <p>
+     Kidte.ch is a meetup of kids and parents wanting to learn more about technology.
+    </p>
+  </header>
 
-<section class="upcoming">
-  {% for post in site.posts %}
-    {% if post.when == "next" %}
-        <article class="next-meeting">
+
+  <section class="upcoming">
+    
+      <article class="next-meeting">
+        
           <h1>Next Meeting</h1>
-          <time>{{post.date | date: "%b %d, %Y"}} @ {{post.meeting_time}}</time>
-          <p>{{post.title}}</p>
+        
+        <time>February 1 @ 9:00am - 11:00am</time>
+        <p>Intro Meeting</p>
+        
           <a href="https://www.eventbrite.com/e/kidtech-tickets-9696649941">EventBrite Signup</a>
-        </article>
-    {% endif %}
-  {% endfor %}
+        
+      </article>
+      
+        <div>
+      
+    
+    </div>
+  </section>
 
-  <div class="meeting-wrapper">
-    {% for post in site.posts %}
-      {% if post.when == "upcoming" %}
-        <article>
-          <h1>Upcoming Meeting</h1>
-          <time>{{post.date | date: "%b %d, %Y"}}</time>
-          <p>{{post.title}}</p>
-        </article>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
+  
+  <footer>
+    <div class="column">
+      <h2>Who can come?</h2>
+      <p>The only prerequisite to attend is a desire to learn more about JavaScript. We'd love to see you at our next meetup.</p>
 
-<!-- <section class="past">
-  <h1>Past Meetings</h1>
-  <div class="meeting-wrapper">
-    {% for post in site.posts %}
-      {% if post.when == "past" %}
-        <article>
-          <time>{{post.date | date: "%b %d, %Y"}}</time>
-          <p>{{post.title}}</p>
-          {% if post.video %}
-            <a href="{{post.video}}" class="media-link" data-icon="&#xe005;">Video</a>
-          {% endif %}
-          {% if post.slides %}
-            <a href="{{post.slides}}" class="media-link">Slides</a>
-          {% endif %}
-        </article>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section> -->
+      <h2>Keep track of us</h2>
+
+      <a data-icon="&#xe002;" href="http://twitter.com/kidtech"><span class="hidden">@kidtech</span></a>
+      <a data-icon="&#xe000;" href="http://github.com/kidtech"><span class="hidden">kidtech</span></a>
+      <a data-icon="&#xe001;" href="http://seesparkbox.com"><span class="hidden">sparkbox</span></a>
+
+      <!-- Begin MailChimp Signup Form -->
+      <!--End mc_embed_signup-->
+    </div>
+
+    <div class="column">
+      <h2>Where we meet</h2>
+      <div class="vcard">
+        <div class="org">Sparkbox</div>
+        <div class="adr">
+          <div class="street-address">123 Webster St., Suite 2</div>
+          <span class="locality">Dayton</span>,
+          <span class="region">OH</span>
+        </div>
+      </div>
+      <p>You can park in the visitor lot in front of the building. We're on the second floor. Lost? Call us: <b>937.401.0915</b>.</p>
+      <iframe class="map" frameBorder='0' src='https://a.tiles.mapbox.com/v3/robtarr.gmh7k7m3/mm/zoompan.html?secure=1#18/39.76381/-84.18239'></iframe>
+    </div>
+  </footer>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-1.9.0.min.js"><\/script>')</script>
+  <!-- replace this with the .min version for production -->
+
+  <script src="/js/kidtech.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
+
